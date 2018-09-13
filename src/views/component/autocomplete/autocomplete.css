@@ -1,0 +1,50 @@
+#autocomplete {
+    padding: 16px 0 16px 0;
+    box-shadow: 1px 1px 1px 1px #ccc;
+    background : #FFF;
+    z-index: 9999;
+    display: inline-block;
+    width: 400px;
+    margin-left: 30px;
+}
+#autocomplete > input {
+    width: 95%;
+    border: none;
+    outline: none;
+    border-bottom: 1px solid #007672;
+    margin: 0 10px 16px 10px;
+    padding: 0 0 5px 5px;
+    font-family: 'DroidSans';
+}
+#autocomplete-results {
+    min-height: 200px;
+}
+#autocomplete-empty {
+    text-align: center;
+    line-height: 20px;
+}
+#autocomplete-empty #msg1 {
+    color: #007672;
+}
+#autocomplete-empty #msg2 {
+    font-size: 13px;
+    color: #a5a5a5;
+}
+.search-result {
+    padding: 8px 10px;
+    cursor: pointer;
+}
+.search-result:hover {
+     background: #d5ead5; 
+      transition: all 0.1s ease;
+}
+.search-result .result-text {
+        line-height: 40px;
+        padding-left: 10px;
+}
+@media only screen and (max-width: 727px) and (min-width: 320px)  {
+    #autocomplete { 
+        width: 275px;
+        margin-left: 20px;
+    }
+}

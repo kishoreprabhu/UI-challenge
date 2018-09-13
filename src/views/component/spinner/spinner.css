@@ -1,0 +1,26 @@
+#page_spinner {
+    position: fixed;
+    width: 100%;
+    top: 50%;
+    margin: auto;
+    max-width: 1100px;
+}
+.spinner_text {
+    margin: auto;
+    margin-top: 10px;
+    letter-spacing: 2px;
+    max-width: 82px;
+}
+.spinner {
+	border: 5px solid #24374a;
+    border-radius: 50% 50%;
+    height: 30px;
+    margin: auto !important;
+    width: 30px;
+    animation: pulsate 1s ease-out;
+    animation-iteration-count: infinite;
+    -webkit-animation: pulsate 1s ease-out;
+    -webkit-animation-iteration-count: infinite;
+    -webkit-animation-timing-function: linear;
+    -webkit-animation-fill-mode: forwards;
+}

@@ -1,0 +1,61 @@
+@font-face {font-family: 'DroidSans-Bold';src: url('/src/css/fonts/DroidSans-Bold.ttf') format('truetype');}
+@font-face {font-family: 'DroidSans';src: url('/src/css/fonts/DroidSans.ttf') format('truetype');}
+
+body {
+	margin: 0;
+	padding: 0;
+	font-family: 'DroidSans';
+    font-size: 15px; 
+}
+
+/****** theme css starts here *******/
+.inline-block {
+	display:inline-block;
+}
+.float-left {
+	float: left;
+}
+.float-right {
+	float: right;
+}
+.relative {
+	position: relative;
+}
+.absolute {
+	position: absolute;
+}
+.clear {
+	position: relative;
+	overflow: hidden;
+}
+.pointer {
+	cursor: pointer;
+}
+.text-center {
+	text-align: center;
+}
+/******* font family ******/
+.app-font-bold {
+    font-family: DroidSans-Bold;
+}
+/******* font family ******/
+.content-area {
+    border: 2px solid #eee;
+    border-top: 2px solid #007672;
+}
+.margin-right-ten {
+  margin-right: 10px;
+}
+
+.padding-left-10 {
+  padding-left: 10px;
+}
+
+.line-height-forty {
+  line-height: 40px;
+}
+.user-pic {
+    background-image: url(../images/avatar.png);
+    background-size: 40px 40px;
+    background-repeat: no-repeat;
+}

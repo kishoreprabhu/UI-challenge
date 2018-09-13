@@ -1,0 +1,29 @@
+.team_oval {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+}
+.team_oval.add_team {
+    background: #d5ead5;
+}
+.team_oval.add_team:hover {
+    background: #FFF;
+}
+.team_oval.add_team:before,
+.team_oval.add_team:after {
+   content: '';
+    position: absolute;
+    top: 0;
+    left: 12px;
+    right: 11px;
+    bottom: 0;
+    background: #007672;
+}
+.team_oval.add_team:before {
+    width: 2px;
+    margin: 12px auto;
+}
+.team_oval.add_team:after {
+    height: 2px;
+    margin: 19px auto;
+}
